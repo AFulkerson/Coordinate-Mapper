@@ -1,5 +1,5 @@
 # Coordinate-Mapper
-Coordinate Mapper maps the location coordinates (x,y) of points (nodes/anchors) in polygons created in a vector graphics program to be used to create custom filled maps for data visualization.
+Coordinate Mapper maps the location coordinates of points in polygons created in a vector graphics program to be used to create custom filled maps for data visualization.
 
 ## How it Works
 The script parses an .svg file created in InkScape and calculates the absolute x,y coordinates of each point in each polygon. It then writes the coordinate information to a comma delimited .csv file ready to use with Tableau.
