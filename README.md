@@ -8,7 +8,7 @@ The script parses an .svg file created in a vector graphics program and calculat
 Mapping the point coordinates for custom filled shapes by hand was boring and took forever. 
 
 ## Installation
-First uninstall any previous version of Coordinate Mapper from Settings/Control Panel.
+First uninstall any previous version of Coordinate Mapper from the Settings/Control Panel.
 Download the .zip for the latest version of Coordinate Mapper from https://github.com/AFulkerson/Coordinate-Mapper/releases.
 Run the setup.exe.
 
