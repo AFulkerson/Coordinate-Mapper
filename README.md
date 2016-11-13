@@ -2,7 +2,7 @@
 Coordinate Mapper maps the location coordinates of points in polygons created in a vector graphics program to be used to create custom filled maps for data visualization.
 
 ## How it Works
-The script parses an .svg file created in InkScape and calculates the absolute x,y coordinates of each point in each polygon. It then writes the coordinate information to a comma delimited .csv file ready to use with Tableau.
+The script parses an .svg file created in InkScape and calculates the absolute x,y coordinates of each point in each polygon. It then writes the coordinate information to a comma delimited .csv file ready to use with a data visualization applicaton.
 
 ## Why?
 Mapping the point coordinates for custom filled shapes by hand was boring and took forever. 
