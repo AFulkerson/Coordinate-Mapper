@@ -138,19 +138,19 @@ namespace Coordinate_Mapper
                     {
                         if (absPath)
                         {
-                            x = Convert.ToDecimal(pairTemp[0]);
-                            y = height - Convert.ToDecimal(pairTemp[1]);
+                            x = decimal.Parse(pairTemp[0], System.Globalization.NumberStyles.Float);
+                            y = height - decimal.Parse(pairTemp[1], System.Globalization.NumberStyles.Float);
                         }
                         else
                         {
-                            x = x + Convert.ToDecimal(pairTemp[0]);
+                            x = x + decimal.Parse(pairTemp[0], System.Globalization.NumberStyles.Float);
                             if (pathOrder == 0)
                             {
-                                y = height - Convert.ToDecimal(pairTemp[1]);
+                                y = height - decimal.Parse(pairTemp[1], System.Globalization.NumberStyles.Float);
                             }
                             else
                             {
-                                y = y - Convert.ToDecimal(pairTemp[1]);
+                                y = y - decimal.Parse(pairTemp[1], System.Globalization.NumberStyles.Float);
                             }
                         }
 
@@ -236,7 +236,7 @@ namespace Coordinate_Mapper
         {
             globalVars.filePath = getFilePath();
 
-            int strLength = 50;
+            int strLength = 45;
 
             if (globalVars.filePath != null)
             {
@@ -266,6 +266,9 @@ namespace Coordinate_Mapper
             {
                 btn_runScript.Enabled = false;
             }
+
+            btn_runScript.Focus();
+
         }
 
         public static class globalVars
